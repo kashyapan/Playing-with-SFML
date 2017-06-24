@@ -1,4 +1,4 @@
-sfmv()
+sfml()
 {
 
 	g++ -c $1".cpp";
