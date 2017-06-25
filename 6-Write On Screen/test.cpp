@@ -61,7 +61,7 @@ int main()
 				
 			if( e.type == Event::TextEntered )
 			{
-				
+				//Takes only ASCII Values - BackSpace
 				if(e.text.unicode < 128 && e.text.unicode != 8 ){
 					displayText = displayText + static_cast<char>(e.text.unicode) ;
 //					cout <<static_cast<char>(e.text.unicode)<<" Added" <<endl ;						
