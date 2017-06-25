@@ -45,7 +45,9 @@ int main()
 				//Delete Character by reducing str len
 				if(e.key.code == Keyboard::BackSpace)
 				{
-					displayText.erase(displayText.end()-1)  ;								
+					//Dont erase any more if string is empty (bug fix)
+					if(!displayText.empty())
+						displayText.erase(displayText.end()-1)  ;								
 					
 				}	
 				
