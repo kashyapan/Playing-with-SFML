@@ -1,3 +1,5 @@
 *.o
 *.cpp~
 sfml-app
+*.json
+.*
